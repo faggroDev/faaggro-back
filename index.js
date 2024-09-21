@@ -1,7 +1,6 @@
 const crypto = require('crypto');
 const express = require('express');
 const app = express();
-const functions = require('firebase-functions/v1')
 app.use(express.urlencoded({ extended: true }));
 const port = 8082;
 
@@ -85,4 +84,4 @@ app.listen(port, () => {
 });
 
 
-exports.app = functions.https.onRequest(app);
+exports.app = app;
