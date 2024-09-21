@@ -17,7 +17,8 @@
     "express": "^4.21.0",
     "firebase-admin": "^12.1.0",
     "firebase-functions": "^5.0.0",
-    "firebase-tools": "^13.18.0"
+    "firebase-tools": "^13.18.0",
+    "http": "^0.0.1-security"
   },
   "devDependencies": {
     "firebase-functions-test": "^3.1.0"
